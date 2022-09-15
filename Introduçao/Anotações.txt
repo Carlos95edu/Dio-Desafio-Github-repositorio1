@@ -1,0 +1,3 @@
+Git init
+
+ls -a (mostra pastas ocultas)
