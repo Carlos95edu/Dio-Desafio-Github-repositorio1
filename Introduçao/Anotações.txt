@@ -1,3 +1,22 @@
-Git init
+cd .. - Volta uma pasta no caminho do Bash ou Cmd
+cd + nome da pasta - Vai até a pasta escolhida
+cd - volta a pasta de inicio
+ls - lista arquivos existentes na pasta
+ls -a - (mostra itens ocultos)
+mkdir - cria nova pasta no diretorio atual
 
-ls -a (mostra pastas ocultas)
+
+Git init - Inicializa um repositório dentro da pasta
+Git add . - Adiciona os arquivos da pasta ao controle de versão
+git commit - comando=> git commit -m "comentario da versão"
+git status - informara o status dos arquivos seja modified, unmodified
+
+untracked - arquivo que o git nao sabe da existencia ainda
+unmodified - arquivo nao modificado, analisado pelo sha1
+modified - arquivo ja modificado
+Ciclos que os arquivos passam
+
+Git clone + link repositorio - irá clonar o repositorio remoto para o local
+git push origin main - irá mandar todos os commits do repositorio local para o remoto após autenticação, seja ssh ou https
+
+obs: tudo do meu repositorio local DEVE ESTAR COMMITADO caso contrario nao será aplicado no REPOSITORIO REMOTO
